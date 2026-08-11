@@ -11,7 +11,7 @@
 <h2>Gmail access</h2>
 <p>If you turn on the Gmail watch, the extension asks you to sign in with your Google account through Chrome's built in identity system. It then reads your Gmail inbox using the official Gmail API. This is a real network connection to Google: the extension requests a list of unread messages, and for the newest ones it reads only the From, Subject, and Date headers. It never reads message bodies, attachments, or conversation text.</p>
 <h2>What is collected and where it goes</h2>
-<p>Nothing about your mail is sent anywhere except Google, who already holds it. The extension has no server of its own. It only asks Google for the unread message list and the three headers above, and only for the senders you added. Everything else, like which senders you watch and your settings, stays in your browser's local storage on your own device.</p>
+<p>Nothing about your mail is sent anywhere except Google, who already holds it. The extension has no server of its own. It only asks Google for the unread message list and the three headers above. By default the watch is limited to the senders you added, and if you turn off the only watched senders option it reads the newest unread messages from your whole inbox. Everything else, like which senders you watch and your settings, stays in your browser's local storage on your own device.</p>
 <h2>Notifications and alarms</h2>
 <p>Chrome's alarm and notification systems are used so the watch can poll while the popup is closed and show the notification on your device. These run locally in your browser.</p>
 <h2>Removing access</h2>
